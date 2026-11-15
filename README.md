@@ -1,58 +1,19 @@
+# CSS Exercises — Working Fork
 
-# CSS Methods
+This repository is a **fork of [The Odin Project's CSS Exercises](https://github.com/TheOdinProject/css-exercises)**.
 
-This next exercise for CSS Foundations is going to give you a closer look at the cascade, in particular specificity and rule order. Both the HTML and CSS files are filled out for you, so instead of adding rules yourself, you will simply be editing what is provided.
+I use this fork while working through the HTML and CSS exercises in The Odin Project curriculum. The exercise prompts, starter files, desired-outcome images and reference solutions originate from the upstream project; this repository should not be presented as an independently designed CSS application.
 
-There are a few elements that have some sort of specificity or rule order issue in the provided CSS file. It's up to you to figure out what issue is affecting an element, and how to fix it. You can edit the CSS file by adding, removing, or editing selectors for a declaration block, or by moving declaration blocks around. **You should not edit the HTML file or any of the actual styles in the CSS**.
+## Working through an exercise
 
-There are multiple ways to solve this exercise, so we have provided some of the possible solutions for each element.
+1. Open an exercise folder under `foundations/`, `intermediate-html-css/` or `advanced-html-css/`.
+2. Read that exercise's README and inspect its desired-outcome image.
+3. Work in the exercise's `index.html` and `style.css` files as instructed.
+4. Compare your result with the provided reference solution only after attempting the task.
 
-Issues with the cascade can be the bane of their existence for many when it comes to CSS. While you won't become a cascade expert from this exercise alone, and there are other ways to deal with these issues, it is still super helpful to see how these issues affect our final styles and why it's important to order rules carefully.
+## Upstream project
 
-## Desired Outcome
+- Source repository: https://github.com/TheOdinProject/css-exercises
+- Curriculum: https://www.theodinproject.com/
 
-![desired outcome](./desired-outcome.png)
-
-### Self Check
-
-- Did you make sure to not edit the HTML file?
-- If you added selectors to the CSS, do they target a valid HTML element?
-=======
-# CSS Exercises
-
-These exercises consist of a series of CSS-related tasks intended to complement the HTML and CSS content on The Odin Project (TOP). They should only be completed when instructed during the course of the curriculum.
-
-When doing these exercises, please use all documentation and resources you need to accomplish them. You are _not_ intended to have any of this stuff memorized at this point. Check the docs, use Google, and do what you need to do (besides checking the solutions) to get them done.
-
-> [!IMPORTANT]
-> We encourage you to practice your git skills by committing your changes and pushing them to your own fork.  However, please **DO NOT** open a Pull Request to have your solutions merged into this repo or to show your solution.  If we were to merge your changes the exercises would no longer be available as intended for new learners, and opening a PR only causes additional work for us, as we have to close it without merging.
-
-## Contributing
-
-If you have suggestions to improve an exercise, ideas for a new exercise, or notice an issue with an exercise, please feel free to open an issue after thoroughly reading our [contributing guide](https://github.com/TheOdinProject/.github/blob/main/CONTRIBUTING.md).
-
-## How To Use These Exercises
-
-1. Fork this repository.
-   - A *fork* is your own copy of a repository stored on your GitHub account. To learn how to fork a repository, see the GitHub documentation on [how to fork a repo](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository).
-1. Clone your *forked* repository.
-   - A *clone* is a copy of a repository on your local machine. If you need help cloning to your local environment, you can learn how from the GitHub documentation on [cloning a repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository).
-1. Go to an exercise directory and open the HTML file in a web browser. You can open the file directly or use something like VSCode's Live Preview extension.
-1. For each exercise, read the README thoroughly before starting any work.
-    - Each README has a "Self Check" list. Use it as a list of **requirements** to make sure your solution matches the "Desired Outcome" image.
-1. Make your edits in the `index.html` and/or the `style.css` files in order to make the output in your browser look like the Desired Outcome image(s).
-    - Depending on the instructions of the exercise, you may only need to make edits in one of these files.
-1. Once you successfully finish an exercise, check TOP's example solution.
-    - You should not be checking the solution for an exercise until you finish it!
-    - If your solution differs from TOP's solution (and still passes the exercise's requirements), that is completely fine. The provided solution is only an example and there are always multiple approaches. Feel free to ask in our Discord if there are parts of the example solution you do not understand.
-
-> [!IMPORTANT]
-> Do not submit your solutions to this repo, as any PRs that do so will be closed without merging.
-
-## Some Hints
-
-- The provided example solutions put all changes at the _end_ of the CSS file, which may duplicate some selectors (e.g. there might be a `body {}` in the given CSS and another `body {}` in the solution). When you are working on an exercise, it is best practice to add your CSS to existing selectors instead of duplicating them at the end of the file. We're sacrificing this best practice in our official solutions to make it extra clear to you what things we changed to solve the exercise.
-- Unless listed in the self-check section, do not worry about getting the exact pixel value for things like margin, padding and font size. These exercises are intended to test your knowledge of CSS, not your ability to guess that a screenshot is using `font: sans-serif bold 16px` or that the margin is _exactly_ `42px`.
-- You may need to add some elements to your HTML to get things into the right spot. (For the first few exercises, we make it explicit when this needs to happen.)
-- You may need to add more selectors to your CSS file. The first few exercises have almost everything already done for you, but as you progress, you'll find that you need to add more and more selectors to get the correct result.
-
+This fork is a learning workspace, not a standalone portfolio application.
